@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+        }
+
+        .banner{
+            background-image: url(bi.png.png);
+            background-size: cover; 
+            background-repeat: no-repeat;
+            width: 100%;
+            height: 100vh;              
+        }
+
+        .logo{
+            width: 100px;
+            margin-top: -5px;
+            cursor: pointer;
+        }
+
+        .navbar{
+            width: 95%;
+            margin: auto;
+            padding: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;           
+        }
+
+        .navbar ul li{
+            list-style: none;
+            display: inline-block;
+            margin: 10px;
+            padding: 5px;
+            font-weight: 600;
+        }
+        .navbar ul li a{
+            text-decoration: none;
+            color: rgb(245, 235, 235);
+        }
+
+        li a:hover{
+            background-color: rgb(223, 223, 233);
+            background: rgb(24, 24, 24);
+            transition: 0.3s;
+            cursor: pointer;
+            padding: 7px;
+            border-radius: 10px;
+        }
+
+        button{
+            width: 120px;
+            padding: 7px;
+            text-align: center;
+            border-radius: 25px;
+            color: black;
+            border: 1px;
+            cursor: pointer;
+            background-color: white;
+            font-weight: 600;
+        }
+
+        button:hover{
+            background: rgb(2, 2, 2);
+            color: aliceblue;
+            transition: 0.5s;
+        }
+       
+        .section{
+            position: relative;
+            top: 12%;
+            left: 7%;           
+            width: 40%;
+            height: 40%;
+            margin-left: 10px;
+            padding: 25px;           
+            color: rgb(238, 237, 236);
+            line-height: 70px;
+        }
+        h1{
+            font-size: 75px;
+            color: rgb(161, 161, 212);           
+            text-shadow: 0.5px 1px 0.5px #919191,
+                         0.5px 1px 0.5px #919191,
+                         0.5px 1px 0.5px #919191,
+                         0.5px 1px 0.5px #919191,
+                         0.5px 1px 0.5px #919191,
+                         0.5px 1px 0.5px #919191,
+                         0.5px 1px 0.5px #919191,
+                         0.5px 1px 0.5px #919191,
+                         1px 5px 6px rgba(5, 5, 5, 0.2),
+                         1px 7px 10px rgba(5, 5, 5, 0.1),
+                         1px 9px 15px rgba(5, 5, 5, 0.1),
+                         1px 12px 25px rgba(5, 5, 5, 0.2);
+                         
+        }
+        h2{
+            font-size: 35px;
+            letter-spacing: 5px;
+            color: rgb(255, 255, 255);           
+            text-shadow: 0.5px 1px 0.5px #000000,
+                         0.5px 1px 0.5px #000000,
+                         0.5px 1px 0.5px #000000,
+                         0.5px 1px 0.5px #000000,
+                         0.5px 1px 0.5px #000000,
+                         0.5px 1px 0.5px #000000,
+                         0.5px 1px 0.5px #000000,
+                         0.5px 1px 0.5px #000000,
+                         1px 5px 6px  rgb(2, 1, 0.1),
+                         1px 7px 10px rgba(53, 53, 52, 0.822),
+                         1px 9px 15px rgba(48, 44, 44, 0.801),
+                         1px 12px 25px rgba(2, 5, 2, 0.795);
+        }
+     
+       .section2{
+            background-color: #3cdd26;
+            width: 100%;
+            height: 100vh;
+            border: 1px solid black;
+            display: flex;
+            
+       }
+
+       .section3{
+            background-color: #cc4444;
+            width: 100%;
+            height: 100vh;
+            border: 1px solid black;
+            display: flex;
+           
+       }
+       .sec1{
+            background-color: #fbff13;
+            width: 50%;
+            height: 100vh;
+            border: 1px solid rgb(252, 0, 105);
+            display: block;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            margin: auto;
+           
+       }
+       .sec1 > h3 , p, img{
+            margin: 25px;
+           
+       }
+       p{
+        text-align: left;
+       }
+       .sec2{
+            background-color: #fbff13;
+            width: 50%;
+            height: 100vh;
+            border: 1px solid rgb(252, 0, 105);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+       }
+
+     
+      
+    </style>
+</head>
+<body>
+    <div class="banner">
+        <div class="navbar">
+            <img class="logo" src="js.png">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">Contact Us</a></li>                
+                <li><button type="Button">Subscribe</button></li>
+            </ul>       
+        </div>
+
+        <div class="section">
+            <h2>Hi..<h2>
+            <h1>I'm Jude Silva</h1>
+            <h2>Full Stack Developer</h2>
+            <button>Find More...</button>
+        </div>
+        </div>
+       
+    <!-- Section 2 -->
+
+    <div class="section2">
+        <div class="sec1">
+            <h3>Lorem ipsum dolor sit amet.</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam nemo suscipit veritatis quas magnam non aut sit fuga dolore, alias et nam praesentium maiores reiciendis, numquam sint repellendus laboriosam, nobis saepe. Ducimus nesciunt vitae odio esse omnis saepe quas modi libero quos laudantium, dolore, odit sapiente aliquid molestias officiis cumque ut fugiat pariatur? Voluptatum aliquid quam voluptates minus dicta consequuntur officiis, et, ratione, fuga architecto sed commodi at pariatur perferendis cum. Enim, eius possimus! Harum.</p>
+            <img src="logo.jpeg">
+        </div>
+        <div class="sec2">2</div>
+    </div>
+
+    <!-- Section3 -->
+
+    <div class="section3">
+        <div class="sec1">1</div>
+        <div class="sec2">2</div>
+        
+    </div>    
+
+    
+       
+</body>
+</html>
